@@ -49,7 +49,8 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style:none;
 }
 
@@ -57,7 +58,9 @@ input, button {
   outline:none;
 }
 
-.btn_add, .btn_edit, .btn_delete {
+.btn_add,
+.btn_edit,
+.btn_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,12 +70,15 @@ input, button {
   cursor: pointer;
 }
 
-.btn_add, .btn_edit, .btn_delete:hover {
-  color: #3a3A3a;
+.btn_add,
+.btn_edit,
+.btn_delete:hover {
+  color: #3a3a3a;
 }
 
 /* Heading */
-h3, label[for="new-task"] {
+h3,
+label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -146,13 +152,13 @@ li > .btn_delete:hover {
   color: #cf2323;
 }
 
-.btn_delete__img {
+button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn_delete__img:hover {
+button img:hover {
   transform: rotateZ(0);
 }
 
@@ -163,7 +169,7 @@ li > .btn_delete:hover {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+li input[type="text"] {
   display:none;
 }
 
