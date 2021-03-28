@@ -5,24 +5,24 @@
   font-family: Lato, sans-serif;
 }
 
-.eisenhower-matrix {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eisenhower-matrix__img {
+.info__img {
   width: 100%;
 }
 
-.eisenhower-matrix__link {
+.info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.eisenhower-matrix {
+.info {
   text-align: center;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 
